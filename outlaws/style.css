@@ -1,0 +1,41 @@
+input[type="submit"], input[type="button"], button { 
+	cursor:pointer;
+	-webkit-appearance: none;
+}
+input[type="submit"]:active, input[type="button"]:active, button:active { 
+	position:relative;
+	top:1px;
+	-webkit-appearance: none;
+} 
+
+.paginate {
+  width: 800px;
+  padding-left:0px;
+}
+
+.paginate.pages {  }
+
+.paginate.pages li { font-weight:normal; font-family:arial; font-size:13px; list-style:none; }
+
+.paginate.pages li a {
+  display: block;
+  float: left;
+  color: #202020;
+text-decoration:none;
+padding: 4px 8px;
+margin-right: 6px;
+border-radius: 2px;
+border:none;
+background-color:#02253B;
+color:FF6600;
+-webkit-appearance: none;
+}
+.paginate.pages li a:active { position:relative; top:1px; }
+.paginate.pages li.single, .paginate.pages li.current {
+  display: block;
+  float: left;
+  border: solid 1px;
+  padding: 3px 7px;
+  margin-right: 6px;
+  border-radius: 2px;
+}
